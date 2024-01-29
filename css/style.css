@@ -1,0 +1,166 @@
+@font-face {
+    font-family: menimfontum;
+    src: url(../fonts/JosefinSans-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: menimfontum;
+    
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header{
+
+    width: 100%;
+    background-color: #292E36;
+    height: 188px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 0.5px solid gray;
+}
+
+.call{
+    border: 1px solid #E1B168;
+    width: 13%;
+    height: 26%;
+    text-align: center;
+    color: white;display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+    cursor: pointer;
+  } 
+
+ 
+    
+
+.logo img{
+    width: 80%;
+    height: 80%;
+}
+.logo{
+   width: 30%;
+   display: flex;
+   justify-content: center;
+}
+.reserv{
+    border: 1px solid #E1B168;
+    width: 13%;
+    height: 26%;
+    text-align: center;
+    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.call:hover{
+    color: #292E36;
+    background-color: #E1B168;
+    
+}
+.reserv:hover{
+    color: #292E36;
+    background-color: #E1B168;
+}
+.navbar a{
+color: white;
+font-size: 18px;
+transition: 0.7s;
+display: inline-block;
+padding: 9px;
+border-radius: 8px;
+
+}
+.navlink{
+    width: 100%;
+    background-color: #292E36;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 65%;
+
+}
+.navbar a:hover{
+    background-color: #E1B168;
+}
+section{
+    display: flex;
+    width: 100%;
+    background-color: #292E36;
+    height: fit-content;
+  }
+  .welcome{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    justify-content: center;
+    gap: 50px;
+padding-left: 13px;
+  }
+  .welcome h1{
+    font-size: 100px;
+  }
+  .welcome p{
+    font-size: 20px;
+  }
+  .view{
+    border: 1px solid #E1B168;
+    width: 20%;
+    height: 11%;
+    text-align: center;
+    color: white;display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .view:hover{
+    color: #292E36;
+    background-color: #E1B168;
+  }
+  .photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 25px solid #FFFFFF1A;
+    border-bottom: none;
+    position: relative;
+    
+  }
+  .ikinci{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .active{
+    background-color: #E1B168;
+  }
+
+
